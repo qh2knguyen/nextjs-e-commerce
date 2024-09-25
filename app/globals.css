@@ -8,10 +8,10 @@ body,
   height: 100%;
 }
 
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
-}
+} */
 
 @media (prefers-color-scheme: dark) {
   :root {
