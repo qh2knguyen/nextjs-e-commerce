@@ -32,6 +32,7 @@ export const ApiAlert = ({
     navigator.clipboard.writeText(description);
     toast.success("API Route copied to the clipboard.");
   }
+  
   return (
     <Alert>
       <Server className="w-4 h-4"/>
