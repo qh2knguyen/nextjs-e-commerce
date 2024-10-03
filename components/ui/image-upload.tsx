@@ -56,6 +56,7 @@ const ImageUpload = ({
       <CldUploadWidget 
         onSuccess={onUpload}
         uploadPreset="fpg6wxff"
+        options={{ multiple: true, maxFiles: 10 }}
       >
         {({ open }) => {
           const onClick = () => {
@@ -70,7 +71,7 @@ const ImageUpload = ({
               onClick={onClick}
             >
               <ImagePlus className="w-4 h-4 mr-2" />
-              Upload and Image
+              Upload an Image
             </Button>
           )
         }}
