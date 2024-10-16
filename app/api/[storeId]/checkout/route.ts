@@ -10,9 +10,9 @@ const corsHeaders = {
   "Access-Control-Allow-Headers": "Content-Type, Authorization",
 };
 
-export async function OTPIONS() {
-  return NextResponse.json({}, { headers: corsHeaders});
-}
+// export async function OTPIONS() {
+//   return NextResponse.json({}, { headers: corsHeaders});
+// }
 
 export async function POST(
   req: Request,
